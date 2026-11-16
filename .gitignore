@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+backend.hcl
+!*.hcl.example
+crash.log
+tfplan
